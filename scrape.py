@@ -100,7 +100,7 @@ def main():
     all_data = []
     seen = set()
     page_num = 1
-    max_pages = 200
+    max_pages = 20
 
     def find_and_click_next(d):
         xpaths = [
